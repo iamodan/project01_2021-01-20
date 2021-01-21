@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>과제</title>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    div#wrap {
+        width: 995px;
+        margin: 0 auto;
+    
+    }
+
+    header {
+        width: 995px;
+        height: 60px;
+        border-bottom: solid 1px #cccccc;
+        margin-top: 21px;
+    }
+
+    #logo {
+        float:left;
+    }
+
+    #search {
+        font-size: 15px;
+        color: rgb(153, 224, 47);
+        float: left;
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    
+    #under{
+        float: left;
+        
+        margin-top: 10px;
+    }
+    /* #headnav {
+        clear: both;
+        font-size: 11px;
+    } */
+     #top1 {
+        float: right;
+        margin-top: 10px;
+        font-size: 13px;
+        margin-left: 3px;
+    } 
+    
+    
+    
+     span {
+         color: greenyellow;
+     }
+    
+    nav {
+        clear: both;
+        width: 995px;
+        height: 45px;
+        background-color: rgb(89, 88, 88);
+    }
+
+    #menu {
+        clear: both;
+            height: 25px;
+            color: white;
+            text-align: center;
+            padding-top: 12px;
+            font-size: 13px;
+    }
+
+    #menu li {
+            display: inline;
+        }
+
+    .item {
+        margin: 0 50px 0 50px;
+    }
+
+
+    #menu2 {
+        display: inline;
+        height: 25px;
+        color: white;
+        float: left;
+        text-align: center;
+        margin-top: 13px;
+        margin-left: 100px;
+    }
+
+    #menu2 li {
+        float: left;
+        margin: 0 20px 0 20px;
+        text-align: center;
+    }
+
+    #asidel {
+        float: left;
+        width: 200px;
+        height: 370px;
+        margin-top: 20px;
+        
+    }
+
+    #asidemain {
+        float: left;
+    }
+
+    #asidemenu {
+        width: 200px;
+        float: left;
+    }
+
+    
+
+    #h5 {
+        height: 30px;
+        padding-top: 11px;
+        color: white;
+        /* margin-bottom: 17px; */
+        text-align: center;
+        background-color: rgb(128, 224, 2)
+    }
+    
+    .item2 {
+        height: 20px;
+        font-size: 13px;
+        list-style-type: none;
+        padding-left: 20px;
+        /* padding-bottom: 1px; */
+        margin-top: 10px;
+        border-bottom: solid 1px gray;
+        
+    }
+
+    .item3 {
+        list-style-type: none;
+        font-size: 13px;
+        text-align: center;
+    }
+    section{
+        width: 550px;
+        float:left;
+        padding-top: 20px;
+      
+    }
+
+    #right1 {
+        float: right;
+    }
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="logo">
+                <img src="img/img2/logo.gif">
+            </div>
+
+            <div id="search">
+                SEARCH <!-- <input type="text" > -->
+            </div>
+
+            <div id="under">
+                _________________<img src="img/img2/btn_search.gif">
+            
+            </div>
+            <div id="top1">
+            <span>로그인 &nbsp;&nbsp;회원가입&nbsp;&nbsp; </span>마이페이지 &nbsp;&nbsp;이용안내 &nbsp;&nbsp;고객센터
+            </div>
+
+        </header>
+
+        <div>
+        <nav>
+            <ul id="menu">
+                <li class="item">상세 페이지</li>
+                <li class="item">장바구니</li>
+                <li class="item">고객 갤러리</li>
+                <li class="item">주문배송</li>
+                <li class="item">자주 하는 질문</li>
+            </ul>
+        </nav>
+        </div>
+        <aside id="asidel">
+            <div>
+                <h5 id="h5">CATEGORY ITEM</h5>
+                <ul id="asidemenu">
+                    <li class="item2">생활 아트</li>
+                    <li class="item2">캔버스 아트</li>
+                    <li class="item2">사진 벽지</li>
+                    <li class="item2">창문형/현관문형</li>
+                    <li class="item2">포인트 벽지</li>
+                    <li class="item2">세계지도</li>
+                    <li class="item2">앤티크 세계지도 벽지</li>
+                    <li class="item2">입체 세계지도 벽지</li>
+                    <li class="item2">어린이방 세계지도</li>
+                    <li class="item2">족자형 롤스크린</li>
+                    <li class="item2">맞춤제작 결제창</li>
+                </ul>
+            </div>
+        </aside>
+        
+        <section id="asidemain">
+            <img src="img/img2/main_img.gif">
+        </section>
+
+        <aside id="right1">
+            <!-- 해드1 리스트6  (style="position: relative; display: block;") -->
+            <div style="position: relative;">   <!-- 디브(받을코드삽입) > 이미지+디브(img삽입) -->
+                <img src="img/img2/latest_notice.gif" alt="">
+                <div style="position: absolute; top: 28px; font-size: 13px;
+                             padding: 15px 0px 5px 40px;">
+                    <!-- <div> -->
+                    <ul>   
+                         <!-- 이미지 안에 텍스트 삽입 -->
+                        <li>폭설로 인한 배송지연 안내</li>
+                        <li>폭설로 인한 배송지연 안내</li>
+                        <li>폭설로 인한 배송지연 안내</li>
+                        <li>폭설로 인한 배송지연 안내</li>
+                        <li>폭설로 인한 배송지연 안내</li>
+                        <li>폭설로 인한 배송지연 안내</li>
+                    </ul>
+                </div>   
+            </div>
+        </aside>
+
+        <footer>
+            <ul id="menu2">
+                <li class="item3">회사소개</li>
+                <li class="item3">이용안내</li>
+                <li class="item3">장바구니</li>
+                <li class="item3">주문조회</li>
+                <li class="item3">적립금</li>
+                <li class="item3">이용약관</li>
+                <li class="item3">개인정보보호정책</li>
+                <li class="item3">고객센터</li>
+            </ul>
+
+        </footer>
+    </div>
+</body>
+</html>
